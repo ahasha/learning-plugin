@@ -57,14 +57,13 @@ Pruning is manual, because it deletes things:
 /scoped-learnings:prune-learnings
 ```
 
-Run the check yourself any time, from a project root:
+Both skills run the check script for you, resolving its path through
+`${CLAUDE_PLUGIN_ROOT}`. To run it yourself from a project root, the installed
+copy lives under the plugin cache:
 
 ```bash
-python3 ~/.claude/plugins/.../scripts/check-rules.py
+python3 ~/.claude/plugins/cache/claude-learnings/scoped-learnings/*/scripts/check-rules.py
 ```
-
-Or, more conveniently, let either skill run it — they resolve the path through
-`${CLAUDE_PLUGIN_ROOT}`.
 
 ## The check script
 
