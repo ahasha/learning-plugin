@@ -1,0 +1,19 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "claude-learnings",
+  "owner": {
+    "name": "Alex Hasha",
+    "url": "https://github.com/ahasha"
+  },
+  "description": "Plugins for keeping project instructions small and scoped.",
+  "plugins": [
+    {
+      "name": "scoped-learnings",
+      "source": "./",
+      "description": "Records non-obvious gotchas into path-scoped .claude/rules/ files instead of bloating CLAUDE.md, and prunes them on demand.",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["memory", "rules", "claude-md", "context"]
+    }
+  ]
+}

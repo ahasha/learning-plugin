@@ -1,0 +1,12 @@
+{
+  "name": "scoped-learnings",
+  "description": "Records non-obvious gotchas into path-scoped .claude/rules/ files instead of bloating CLAUDE.md, and prunes them on demand.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Alex Hasha"
+  },
+  "homepage": "https://github.com/ahasha/learning-plugin",
+  "repository": "https://github.com/ahasha/learning-plugin",
+  "license": "MIT",
+  "keywords": ["memory", "rules", "claude-md", "context"]
+}
